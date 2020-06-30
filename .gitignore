@@ -1,4 +1,4 @@
 code.py
 src/temp.c
 *.exe
-*/main.c
+src/metaheurística/main.c
