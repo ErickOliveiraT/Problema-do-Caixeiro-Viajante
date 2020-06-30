@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
     int i;
     matriz m;
 
-    carregaArquivo(&m, "../../instances/10_01_25.txt");
+    carregaArquivo(&m, "../../instances/instance_10000.txt");
     //imprimeMatriz(m);
 
     int *caminho = malloc((m.qnt + 1) * sizeof(int)); // Inicializando um caminho
@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
     printf("Caminho: ");
     imprimeCaminho(m.qnt + 1, caminho);
     int custo = calcCusto(m, caminho);
-    printf("Custo total: %d", custo);
+    printf("\nCusto total: %d", custo);
 }
 
 void resolver(matriz m, int* caminho) {

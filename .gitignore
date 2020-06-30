@@ -2,3 +2,4 @@ code.py
 src/temp.c
 *.exe
 src/metaheurística/main.c
+instances/instance_10000.txt
