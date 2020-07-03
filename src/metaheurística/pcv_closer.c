@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
     int i;
     matriz m;
 
-    carregaArquivo(&m, "../../instances/instance_10000.txt");
-    //imprimeMatriz(m);
+    carregaArquivo(&m, "instance_6.txt");
+    imprimeMatriz(m);
 
     int *caminho = malloc((m.qnt + 1) * sizeof(int)); // Inicializando um caminho
     resolver(m, caminho);
@@ -58,10 +58,10 @@ void resolver(matriz m, int* caminho) {
         int selected = 0;
         for(j = 0; j < m.qnt; j++) {
             //Marca elemento como possível selecionado caso seu custo seja menor que dos outros vizinhos e ainda não faça parte do caminho
-            if(!inserido[j] && aux > m.elementos[i][j]) {
+            if(!inserido[j] && m.elementos[i][j] < aux) {
                 selected = j;
                 aux = m.elementos[i][j];
-            }
+            }  
         }
         // Insere o vizinho não selecionado mais próximo ao caminho
         caminho[i + 1] = selected;

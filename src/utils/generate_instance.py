@@ -4,7 +4,7 @@ import sys
 n = int(sys.argv[1]) # Número de cidades
 MAX_CUSTO = int(sys.argv[2]) # Custo máximo
 
-filename = '../instance_' + str(n) + '.txt'
+filename = '../../instances/instance_' + str(n) + '.txt'
 arq = open(filename, 'w')
 arq.write(str(n)+'\n')
 
@@ -34,6 +34,6 @@ for lin in range(0,n):
     if col == n-1:
       arq.write(str(M[lin][col]))
     else:
-      arq.write(str(M[lin][col]) + ' ')
+      arq.write(str(M[lin][col]) + '\t')
   arq.write('\n')
 arq.close()
