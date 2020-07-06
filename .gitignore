@@ -3,3 +3,4 @@ src/temp.c
 *.exe
 src/metaheurística/main.c
 instances/instance_10000.txt
+src/utils/generate_instances.py

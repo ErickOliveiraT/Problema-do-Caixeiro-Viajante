@@ -2,7 +2,7 @@ from random import randint
 from time import time
 
 #Config:
-instance = open('../../instances/instance_500.txt', 'r') #Instância (pasta src/instances)
+instance = open('../../instances/instance_10.txt', 'r') #Instância (pasta src/instances)
 prob_mutacao = 0.05 #Probabilidade de mutação do algoritmo genético
 max_deep = 2
 
