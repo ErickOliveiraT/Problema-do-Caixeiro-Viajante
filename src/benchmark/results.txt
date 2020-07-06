@@ -1,0 +1,301 @@
+Instancia: instance_10_1.txt
+
+Custo inicial: 33
+Custo final: 29
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.0 seg
+Tempo total: 0.0 seg
+
+Instancia: instance_10_2.txt
+
+Custo inicial: 22
+Custo final: 22
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.02 seg
+Tempo total: 0.02 seg
+
+Instancia: instance_10_3.txt
+
+Custo inicial: 36
+Custo final: 30
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.0 seg
+Tempo total: 0.0 seg
+
+Instancia: instance_20_1.txt
+
+Custo inicial: 195
+Custo final: 157
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.09 seg
+Tempo total: 0.09 seg
+
+Instancia: instance_20_2.txt
+
+Custo inicial: 204
+Custo final: 155
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.09 seg
+Tempo total: 0.09 seg
+
+Instancia: instance_20_3.txt
+
+Custo inicial: 204
+Custo final: 161
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.11 seg
+Tempo total: 0.11 seg
+
+Instancia: instance_30_1.txt
+
+Custo inicial: 231
+Custo final: 215
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.73 seg
+Tempo total: 0.73 seg
+
+Instancia: instance_30_2.txt
+
+Custo inicial: 159
+Custo final: 136
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.7 seg
+Tempo total: 0.7 seg
+
+Instancia: instance_30_3.txt
+
+Custo inicial: 196
+Custo final: 150
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 0.7 seg
+Tempo total: 0.7 seg
+
+Instancia: instance_40_1.txt
+
+Custo inicial: 439
+Custo final: 324
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 4.33 seg
+Tempo total: 4.33 seg
+
+Instancia: instance_40_2.txt
+
+Custo inicial: 310
+Custo final: 263
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 3.96 seg
+Tempo total: 3.96 seg
+
+Instancia: instance_40_3.txt
+
+Custo inicial: 422
+Custo final: 323
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 3.76 seg
+Tempo total: 3.76 seg
+
+Instancia: instance_50_1.txt
+
+Custo inicial: 316
+Custo final: 295
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 12.35 seg
+Tempo total: 12.35 seg
+
+Instancia: instance_50_2.txt
+
+Custo inicial: 542
+Custo final: 456
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 13.43 seg
+Tempo total: 13.43 seg
+
+Instancia: instance_50_3.txt
+
+Custo inicial: 520
+Custo final: 380
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 12.12 seg
+Tempo total: 12.12 seg
+
+Instancia: instance_60_1.txt
+
+Custo inicial: 556
+Custo final: 419
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 30.77 seg
+Tempo total: 30.77 seg
+
+Instancia: instance_60_2.txt
+
+Custo inicial: 567
+Custo final: 444
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 29.69 seg
+Tempo total: 29.69 seg
+
+Instancia: instance_60_3.txt
+
+Custo inicial: 460
+Custo final: 400
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 29.41 seg
+Tempo total: 29.41 seg
+
+Instancia: instance_70_1.txt
+
+Custo inicial: 355
+Custo final: 323
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.02 seg
+Tempo para otimizar o caminho: 62.69 seg
+Tempo total: 62.71 seg
+
+Instancia: instance_70_2.txt
+
+Custo inicial: 424
+Custo final: 380
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 67.4 seg
+Tempo total: 67.4 seg
+
+Instancia: instance_70_3.txt
+
+Custo inicial: 483
+Custo final: 432
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 62.66 seg
+Tempo total: 62.66 seg
+
+Instancia: instance_80_1.txt
+
+Custo inicial: 536
+Custo final: 469
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.02 seg
+Tempo para otimizar o caminho: 125.17 seg
+Tempo total: 125.19 seg
+
+Instancia: instance_80_2.txt
+
+Custo inicial: 506
+Custo final: 422
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.02 seg
+Tempo para otimizar o caminho: 126.21 seg
+Tempo total: 126.23 seg
+
+Instancia: instance_80_3.txt
+
+Custo inicial: 559
+Custo final: 474
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 125.77 seg
+Tempo total: 125.77 seg
+
+Instancia: instance_90_1.txt
+
+Custo inicial: 525
+Custo final: 487
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.02 seg
+Tempo para otimizar o caminho: 232.34 seg
+Tempo total: 232.36 seg
+
+Instancia: instance_90_2.txt
+
+Custo inicial: 516
+Custo final: 438
+
+Tempo para carregar a matriz: 0.02 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 226.15 seg
+Tempo total: 226.17 seg
+
+Instancia: instance_90_3.txt
+
+Custo inicial: 458
+Custo final: 391
+
+Tempo para carregar a matriz: 0.0 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 229.64 seg
+Tempo total: 229.64 seg
+
+Instancia: instance_100_1.txt
+
+Custo inicial: 4222
+Custo final: 3780
+
+Tempo para carregar a matriz: 0.02 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 373.24 seg
+Tempo total: 373.26 seg
+
+Instancia: instance_100_2.txt
+
+Custo inicial: 3826
+Custo final: 3470
+
+Tempo para carregar a matriz: 0.01 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 395.55 seg
+Tempo total: 395.56 seg
+
+Instancia: instance_100_3.txt
+
+Custo inicial: 4152
+Custo final: 3257
+
+Tempo para carregar a matriz: 0.02 seg
+Tempo da resolucao gulosa: 0.0 seg
+Tempo para otimizar o caminho: 385.58 seg
+Tempo total: 385.6 seg
+
+Tempo de benchmark: 2555.48 s

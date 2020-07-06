@@ -1,10 +1,9 @@
-from random import randint
 from time import time
+import sys
 
 #Config:
-instance = open('../../instances/instance_10.txt', 'r') #Instância (pasta src/instances)
-prob_mutacao = 0.05 #Probabilidade de mutação do algoritmo genético
-max_deep = 2
+path = '../../instances/' + sys.argv[1]
+instance = open(path, 'r') #Instância (pasta src/instances)
 
 def carregarMatriz(): #Lê uma matriz de adjacência
     n = int(instance.readline())
@@ -48,17 +47,6 @@ def calc_custo(caminho, m):
         custo += m[caminho[i]][caminho[i+1]]
     return custo
 
-def swap_random(caminho):
-    i1 = randint(1, len(caminho)-1)
-    i2 = randint(1, len(caminho)-1)
-    return swap(caminho, i1, i2)
-
-def random_choice():
-    rd = randint(1,100)
-    if rd <= 5:
-        return True
-    return False
-
 def swap(caminho, i1, i2):
     temp = caminho[i1]
     caminho[i1] = caminho[i2]
@@ -78,7 +66,7 @@ def get_melhor_variacao(caminho, m):
             if custo < melhor_custo:
                 melhor_custo = custo
                 melhor_caminho = novo
-    return melhor_caminho
+    return [melhor_caminho, melhor_custo]
 
 def trocar_pares(caminho, m):
     solutions = []
@@ -95,8 +83,9 @@ def otimizar(caminho, m):
     pares = trocar_pares(caminho, m)
     testes = pow(len(pares), 2)
     for par in pares:
-        melhor_par = get_melhor_variacao(par, m)
-        custo = calc_custo(melhor_par, m)
+        info = get_melhor_variacao(par, m)
+        melhor_par = info[0]
+        custo = info[1]
         if custo < best_custo:
             print('Um caminho melhor de custo {} foi encontrado!'.format(custo))
             best_caminho = melhor_par
@@ -104,6 +93,7 @@ def otimizar(caminho, m):
     print('\nOtimização finalizada. {} soluções foram testadas'.format(testes))
     return best_caminho
 
+print('Instância: {}\n'.format(path))
 print('Carregando matriz\n')
 inicio = time()
 M = carregarMatriz()
@@ -119,12 +109,13 @@ fim = time()
 tempo_guloso = round(fim - inicio, 2)
 
 print('Caminho guloso: {}\n'.format(C))
-print('Custo inicial: {}\n'.format(calc_custo(C,M)))
+custo_inicial = calc_custo(C,M)
+print('Custo inicial: {}\n'.format(custo_inicial))
 
 print('Otimizando Caminho...\n')
 inicio = time()
 melhor_caminho = C
-melhor_custo = calc_custo(C, M)
+melhor_custo = custo_inicial
 C2 = otimizar(C, M)
 fim = time()
 tempo_otimizacao = round(fim - inicio, 2)
