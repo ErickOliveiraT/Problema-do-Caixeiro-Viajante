@@ -12,7 +12,7 @@ pip install pyomo
 Baixar o resolvedor IBM CPLEX([Baixar](https://www.ibm.com/developerworks/br/downloads/ws/ilogcplex/index.html "Aqui"))<br />
 Instale utilizando o [Tutorial](https://www.ibm.com/support/knowledgecenter/SSSA5P_12.7.1/ilog.odms.cplex.help/CPLEX/GettingStarted/topics/set_up/Python_setup.html "Tutorial")
 
-**Obs: **A implementação atual utiliza a instalação do cplex atribuindo a variável de ambiente PYTHONPATH para o caminho do CPLEX(como descrito no tutorial oficial), caso não tenha atribuido a variável de ambiente, referencie o caminho do resolvedor no código(tsp_pli.py) como o exemplo abaixo:
+**Obs:** A implementação atual utiliza a instalação do cplex atribuindo a variável de ambiente PYTHONPATH para o caminho do CPLEX(como descrito no tutorial oficial), caso não tenha atribuido a variável de ambiente, referencie o caminho do resolvedor no código(tsp_pli.py) como o exemplo abaixo:
 ```sh
 solver = pyEnv.SolverFactory('cplex', executable="/opt/ibm/ILOG/CPLEX_Studio_Community129/cplex/bin/x86-64_linux/cplex")
 
