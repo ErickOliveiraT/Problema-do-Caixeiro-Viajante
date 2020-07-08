@@ -1,4 +1,4 @@
-## Metaherística
+## Metaheurística
 
 Nessa pasta encontra-se o programa para resolver uma instância utilizando a metaheurística 2-opt swap descrita no relatório final
 
