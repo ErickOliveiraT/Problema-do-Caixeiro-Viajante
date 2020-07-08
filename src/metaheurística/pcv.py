@@ -41,19 +41,19 @@ def resolver_guloso(m): #Calcula uma caminho pelo método do vizinho mais próxi
     caminho.append(0)
     return caminho
 
-def calc_custo(caminho, m):
+def calc_custo(caminho, m): #Calcula o custo de um caminho
     custo = 0
     for i in range(0, len(caminho)-1):
         custo += m[caminho[i]][caminho[i+1]]
     return custo
 
-def swap(caminho, i1, i2):
+def swap(caminho, i1, i2): #Troca duas cidades de posição em um caminho
     temp = caminho[i1]
     caminho[i1] = caminho[i2]
     caminho[i2] = temp
     return caminho
 
-def get_melhor_variacao(caminho, m):
+def get_melhor_variacao(caminho, m): #Dado uma solução plausível, retorna a de melhor custo entre as soluções geradas por trocas 2-opt
     melhor_caminho = caminho
     melhor_custo = calc_custo(caminho, m)
     count = 0
@@ -68,7 +68,7 @@ def get_melhor_variacao(caminho, m):
                 melhor_caminho = novo
     return [melhor_caminho, melhor_custo]
 
-def trocar_pares(caminho, m):
+def trocar_pares(caminho, m): #Retorna as soluções geradas a partir das trocas 2-opt
     solutions = []
     for i in range(1, len(caminho)-2):
         for j in range(i+1, len(caminho)-1):
@@ -77,7 +77,7 @@ def trocar_pares(caminho, m):
             solutions.append(novo)
     return solutions
 
-def otimizar(caminho, m):
+def otimizar(caminho, m): #Realiza o processo de otimização
     best_caminho = caminho
     best_custo = calc_custo(best_caminho, m)
     pares = trocar_pares(caminho, m)
