@@ -4,3 +4,9 @@ src/temp.c
 src/metaheurística/main.c
 instances/instance_10000.txt
 src/utils/generate_instances.py
+instances/instance_100_1_1.txt
+instances/instance_100_2_1.txt
+instances/instance_100_3_1.txt
+src/benchmark/results.txt
+src/benchmark/results.txt
+src/benchmark/run2.py
